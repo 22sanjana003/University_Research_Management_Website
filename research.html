@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Research Work</title>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="research.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class=header>
+        <div class="container">
+            <div class="row" style="padding:5px ;">
+                <div class="col-sm-2">
+                    <br>
+                    <a href="#"><img src="https://img.collegepravesh.com/2014/07/IGDTUW-Logo.jpg" alt="IGDTUW logo" height="120px" width="auto"></a>
+                </div>
+                <div class="col-sm-7">
+                   <div style="font-size:26px; font-family:sans-serif ; color:darkblue;"><br><b> Indira Gandhi Delhi Technical University For Women</b></div>
+                    <div style="font-size:20px; color:darkblue;">
+                    <center><b>(Established by Govt. of Delhi vide Act 9 of 2012) <br>
+                    ISO 9001:2015 Certified University</b></center></div>
+                </div>
+                <div class="col-sm-3">
+                    <br>
+                      <img src="https://admissionadvice.in/wp-content/uploads/2020/11/IGDTUW-Delhi-Admission.jpg" alt="University" height="100px" width="auto"><br>
+                    
+                        <a href="https://www.facebook.com/igdtuw.delhi.5"><i class="fa fa-facebook" style="font-size:30px; color:purple;"></i></a> &nbsp
+
+                        <a href="https://www.youtube.com/channel/UCKmYhevZ59gJJP0ZbpReBKA"><i class="fa fa-youtube" style="font-size:30px; color:purple;"></i></a> &nbsp
+
+                        <a href="https://www.linkedin.com/school/indira-gandhi-delhi-technical-university-for-women-new-delhi/" ><i class="fa fa-linkedin" style="font-size:30px; color:purple;"></i></a> &nbsp
+
+                        <a href="https://www.instagram.com/igdtuw.official/"><i class="fa fa-instagram" style="font-size:30px; color:purple;"></i></a> &nbsp
+
+                        <a href="https://twitter.com/IGDTUW_Delhi"><i class="fa fa-twitter" style="font-size:30px; color:purple;"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topnav">
+        <a href="front.html"><i class="fa fa-fw fa-home"></i>&nbsp Home</a>
+        <a href="login.html"><i class="fa fa-fw fa-user"></i>&nbsp Login</a>
+        <a href="updates.html"><i class="fa fa-fw fa-bell"></i>&nbsp Updates</a>
+        <a href="research.html"><i class="fa fa-fw fa-file"></i>&nbsp Research Work</a>
+        <a href="awardees.html"><i class="fa fa-fw fa-trophy"></i>&nbsp Awardees</a>
+        <a href="reports.html"><i class="fa fa-fw fa-area-chart"></i>&nbsp Reports</a>
+        <a href="contact.html"><i class="fa fa-fw fa-phone-square"></i>&nbsp Contact</a>
+    </div>
+    <h2 style="text-align:center"><u>Sponsored Research Projects</u> &nbsp &nbsp 
+        <img src="https://tse3.mm.bing.net/th?id=OIP.-U95jsFlabfmPLtNLFt8wQHaEe&pid=Api&P=0&h=180" style="width:120px; height:50px;"></h2></br>
+    <div id="filter">
+        <label for="department" style="font-size:19px">Department:</label> &nbsp &nbsp
+        <select id="department">
+            <option value=1>Information Technology</option>
+            <option value=2>Applied Sciences & Humanities</option>
+            <option value=3>Computer Science & Engineering</option>
+            <option value=4>Electronics & Communication Engineering</option>
+            <option value=5>Architecture & Planning</option>
+            <option value=6>Management</option>
+            <option value=7>Mechanical & Automation Engineering</option>
+            <option value=8>Artificial Intelligence & Data Sciences</option>
+        </select> &nbsp &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+        <label for="status" style="font-size:19px">Status:</label> &nbsp &nbsp
+        <select id="status">
+            <option value="ongoing">ongoing</option>
+            <option value="completed">completed</option>
+        </select> &nbsp &nbsp &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp
+        <button id="search">Search</button>
+    </div>
+
+    <div id="research">
+    <center>
+        <table style="width:65%; margin-top:20px;">
+            <thead>
+                <tr>
+                    <th>Name of the Project</th>
+                    <th>Name of the Principal Investigator/Co-Investigator(If Applicable)</th>
+                    <th>Name of the Funding agency</th>
+                    <th>Year of Project Sanctioned</th>
+                    <th>Funds Sanctioned (INR in lakhs)</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+      </table>
+  </center>
+    </div>
+    <script type="text/javascript" src="research.js"></script>
+	</body>
+</html>

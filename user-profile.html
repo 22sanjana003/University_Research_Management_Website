@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">  <!-- covers all of the characters and symbols in the world -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--force Internet Explorer (IE) to use the latest version of the rendering engine -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- width=device-width part sets the width of the page to follow the screen-width of the device -->
+	<title>Igdtuw Research Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="user-profile.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class=header>
+        <div class="container">
+            <div class="row" style="padding:5px ;">
+                <div class="col-sm-2">
+                    <br>
+                    <a href="#"><img src="https://img.collegepravesh.com/2014/07/IGDTUW-Logo.jpg" alt="IGDTUW logo" height="120px" width="auto"></a>
+                </div>
+                <div class="col-sm-7">
+                   <div style="font-size:26px; font-family:sans-serif ; color:darkblue;"><br><b> Indira Gandhi Delhi Technical University For Women</b></div>
+                    <div style="font-size:20px; color:darkblue;">
+                    <center><b>(Established by Govt. of Delhi vide Act 9 of 2012) <br>
+                    ISO 9001:2015 Certified University</b></center></div>
+                </div>
+                <div class="col-sm-3">
+                    <br>
+                      <img src="https://admissionadvice.in/wp-content/uploads/2020/11/IGDTUW-Delhi-Admission.jpg" alt="University" height="100px" width="auto"><br>
+                    
+                        <a href="https://www.facebook.com/igdtuw.delhi.5"><i class="fa fa-facebook" style="font-size:30px; color:purple;"></i></a> &nbsp
+
+                        <a href="https://www.youtube.com/channel/UCKmYhevZ59gJJP0ZbpReBKA"><i class="fa fa-youtube" style="font-size:30px; color:purple;"></i></a> &nbsp
+
+                        <a href="https://www.linkedin.com/school/indira-gandhi-delhi-technical-university-for-women-new-delhi/" ><i class="fa fa-linkedin" style="font-size:30px; color:purple;"></i></a> &nbsp
+
+                        <a href="https://www.instagram.com/igdtuw.official/"><i class="fa fa-instagram" style="font-size:30px; color:purple;"></i></a> &nbsp
+
+                        <a href="https://twitter.com/IGDTUW_Delhi"><i class="fa fa-twitter" style="font-size:30px; color:purple;"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="topnav">
+        <a href="login.html"><i class="fa fa-sign-out"></i>&nbsp Logout</a>
+    </div>
+
+    <div id=profile>
+        <center><h2 id="title"></h2></center>
+        <label class="l">Mentor Name:</label>
+        <label id="mentor"></label></br>
+        <label class="l">Department Name:</label>
+        <label id="dept"></label></br>
+        <label class="l">Students:</label>
+        <label id="student"></label></br>
+        <label class="l">Project description:</label>
+        <label id="desc"></label></br>
+        <label class="l">Project report:</label>
+        <input type="file" id="sample" name="sample" accept=".pdf"/>
+        <button id="editButton">Edit</button>
+    </div>    
+    
+    <div id="editForm" style="display: none;">
+        <h2>Edit Profile</h2>
+        <form id="profileForm">
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department"><br>
+            <label for="title">Title:</label>
+            <input type="text" id="titleInput" name="title"><br>
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description"><br>
+            <label for="students">Students:</label>
+            <input type="text" id="students" name="students"><br>
+            <button type="submit">Save</button>
+            <button type="button" id="cancelButton">Cancel</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="user-profile.js"></script>
+
+       
+
+</body>
+</html>

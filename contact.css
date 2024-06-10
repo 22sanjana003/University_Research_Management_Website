@@ -1,0 +1,66 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#contact-info, #feedback-form {
+    margin-bottom: 30px;
+}
+
+#contact-info h2, #feedback-form h2 {
+    color: darkblue;
+}
+
+#contact-info p {
+    margin: 5px 0;
+}
+
+/* Feedback form styles */
+#feedback-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#feedback-form input[type="text"],
+#feedback-form input[type="email"],
+#feedback-form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#feedback-form textarea {
+    resize: vertical;
+}
+
+#feedback-form input[type="submit"] {
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#feedback-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#map{margin-bottom:30px;}

@@ -1,0 +1,37 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.inner{padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;
+  padding-left:10px;}
+div.gallery{margin-left:10px;margin-right:10px;}  
+div.gallery img{
+  margin: 5px;
+  border: 2px solid black;
+}
+div.gallery img:hover{
+  border: 2px solid gray;
+}
+div.row{
+  margin-top: 20px;
+
+}
+
